@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env JWT_SECRET=zenvarocks nodemon .",
+    "start": "JWT_SECRET=zenvarocks node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.18.2",
+    "cross-env": "^7.0.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
